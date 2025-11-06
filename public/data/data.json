@@ -1,0 +1,801 @@
+[
+    {
+        "id": "SM-A165M",
+        "nombre": "Celular Samsung Galaxy A16 SM-A165M Dual Sim de 128GB-4GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A16 SM-A165M",
+        "color": "Negro",
+        "especificaciones": {
+            "pantalla": "6.0' - 6.9'",
+            "camara_trasera": "50+5+2MP",
+            "camara_frontal": "13MP",
+            "ram": "4GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 278720,
+            "mayorista": 246400
+        }
+    },
+    {
+        "id": "SM-S921B",
+        "nombre": "Celular Samsung Galaxy S24 SM-S921B NFC Dual Sim de 128GB-8GB Ram ",
+        "marca": "Samsung",
+        "linea": "Galaxy S",
+        "modelo": "Galaxy S24 SM-S921B",
+        "color": "N/A (+ Funda)",
+        "especificaciones": {
+            "pantalla": "6.2'",
+            "camara_trasera": "50+12+10MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 1079520,
+            "mayorista": 942400
+        }
+    },
+    {
+        "id": "SM-A065F-1",
+        "nombre": "Celular Samsung Galaxy A06 SM-A065F Dual Sim de 64GB-4GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A06 SM-A065F",
+        "color": "Light Blue",
+        "especificaciones": {
+            "pantalla": "6.0' - 6.9'",
+            "camara_trasera": "50+2MP",
+            "camara_frontal": "8MP",
+            "ram": "4GB",
+            "almacenamiento": "64GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 199680,
+            "mayorista": 185600
+        }
+    },
+    {
+        "id": "SM-A566E",
+        "nombre": "Celular Samsung Galaxy A56 5G SM-A566E Dual Sim de 128GB-8GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A56 5G SM-A566E",
+        "color": "Awesome Olive",
+        "especificaciones": {
+            "pantalla": "6.0' - 6.9'",
+            "camara_trasera": "50+12+5MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 640640,
+            "mayorista": 572800
+        }
+    },
+    {
+        "id": "SM-S721B",
+        "nombre": "Celular Samsung Galaxy S24 Fe SM-S721B NFC Dual Sim de 256GB-8GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy S",
+        "modelo": "Galaxy S24 Fe SM-S721B",
+        "color": "Azul",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+12+8MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "256GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 904800,
+            "mayorista": 808000
+        }
+    },
+    {
+        "id": "SM-A366E",
+        "nombre": "Celular Samsung Galaxy A36 5G SM-A366E Dual Sim de 128GB-8GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A36 5G SM-A366E",
+        "color": "Awesome Lime",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+8+5MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 513760,
+            "mayorista": 475200
+        }
+    },
+    {
+        "id": "SM-A175F-4GB",
+        "nombre": "Celular Samsung Galaxy A17 SM-A175F NFC Dual Sim de 128GB-4GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A17 SM-A175F",
+        "color": "Light Blue",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+5+2MP",
+            "camara_frontal": "13MP",
+            "ram": "4GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 351520,
+            "mayorista": 302400
+        }
+    },
+    {
+        "id": "SM-A175F-6GB",
+        "nombre": "Celular Samsung Galaxy A17 SM-A175F NFC Dual Sim de 128GB-6GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A17 SM-A175F",
+        "color": "Light Blue",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+5+2MP",
+            "camara_frontal": "13MP",
+            "ram": "6GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 364000,
+            "mayorista": 312000
+        }
+    },
+    {
+        "id": "SM-A266M",
+        "nombre": "Celular Samsung Galaxy A26 5G SM-A266M Dual Sim de 128GB-6GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A26 5G SM-A266M",
+        "color": "Branco",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+8+2MP",
+            "camara_frontal": "13MP",
+            "ram": "6GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 420160,
+            "mayorista": 371200
+        }
+    },
+    {
+        "id": "SM-A075M",
+        "nombre": "Celular Samsung Galaxy A07 SM-A075M Dual Sim de 64GB-4GB Ram ",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A07 SM-A075M",
+        "color": "Light Violet",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+2MP",
+            "camara_frontal": "8MP",
+            "ram": "4GB",
+            "almacenamiento": "64GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 230880,
+            "mayorista": 209600
+        }
+    },
+    {
+        "id": "SM-A566B",
+        "nombre": "Celular Samsung Galaxy A56 5G SM-A566B Dual Sim de 256GB-8GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A56 5G SM-A566B",
+        "color": "Awesome Graphite",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+12+5MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "256GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 725920,
+            "mayorista": 638400
+        }
+    },
+    {
+        "id": "SM-S731B",
+        "nombre": "Celular Samsung Galaxy S25 Fe SM-S731B NFC Dual Sim de 256GB-8GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy S",
+        "modelo": "Galaxy S25 Fe SM-S731B",
+        "color": "Jetblack",
+        "especificaciones": {
+            "pantalla": "6.7\"",
+            "camara_trasera": "50+12+8MP",
+            "camara_frontal": "12MP",
+            "ram": "8GB",
+            "almacenamiento": "256GB",
+            "sim": "Dual Sim",
+            "conectividad": "5G",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 1349920,
+            "mayorista": 1150400
+        }
+    },
+    {
+        "id": "SM-A065F",
+        "nombre": "Celular Samsung Galaxy A06 SM-A065F Dual Sim de 128GB-4GB Ram",
+        "marca": "Samsung",
+        "linea": "Galaxy A",
+        "modelo": "Galaxy A06 SM-A065F",
+        "color": "Preto-Azul",
+        "especificaciones": {
+            "pantalla": "6.7'",
+            "camara_trasera": "50+2MP",
+            "camara_frontal": "8MP",
+            "ram": "4GB",
+            "almacenamiento": "128GB",
+            "sim": "Dual Sim",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 220560,
+            "mayorista": 203200
+        }
+    },
+    {
+        "id": "XT2523-3",
+        "nombre": "Celular Motorola Moto G05 XT2523-3 Dual Sim de 64GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G05 XT2523-3",
+        "color": "Denim Blue",
+        "especificaciones": {
+            "pantalla": "6.67 pulgadas",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "64 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 172640.0,
+            "mayorista": 164800.0
+        }
+    },
+    {
+        "id": "XT2523-8",
+        "nombre": "Celular Motorola Moto E15 XT2523-8 Dual Sim de 64GB/2GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto E",
+        "modelo": "Moto E15 XT2523-8",
+        "color": "Morado",
+        "especificaciones": {
+            "pantalla": "6.67 pulgadas",
+            "camara_trasera": "32 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "2 GB",
+            "almacenamiento": "64 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 160160.0,
+            "mayorista": 155200.0
+        }
+    },
+    {
+        "id": "XT2523-2",
+        "nombre": "Celular Motorola Moto G05 XT2523-2 Single Sim de 64GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G05 XT2523-2",
+        "color": "Verde Profundo",
+        "especificaciones": {
+            "pantalla": "6.67 pulgadas",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "64 GB",
+            "sim": "Single SIM (1 Chip)",
+            "conectividad": "4G LTE",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 172640.0,
+            "mayorista": 164800.0
+        }
+    },
+    {
+        "id": "XT2421-2",
+        "nombre": "Celular Motorola Moto G04S XT2421-7 Dual Sim de 256GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G04S XT2421-7",
+        "color": "Verde Aurora",
+        "especificaciones": {
+            "pantalla": "6.56 pulgadas",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "5 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "256 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 197600.0,
+            "mayorista": 184000.0
+        }
+    },
+    {
+        "id": "XT2421-2",
+        "nombre": "Celular Motorola Moto G04 XT2421-2 Dual Sim de 128GB/4GB Ram ",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G04 XT2421-2",
+        "color": "Negro Cosmico",
+        "especificaciones": {
+            "pantalla": "6.56 pulgadas",
+            "camara_trasera": "16 Megapíxeles",
+            "camara_frontal": "5 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 199680.0,
+            "mayorista": 185600.0
+        }
+    },
+    {
+        "id": "XT2523-2-1",
+        "nombre": "Celular Motorola Moto G05 XT2523-2 Dual Sim de 128GB/4GB Ram ",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G05 XT2523-2",
+        "color": "Verde Profundo",
+        "especificaciones": {
+            "pantalla": "6.67 pulgadas",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 183040.0,
+            "mayorista": 172800.0
+        }
+    },
+    {
+        "id": "XT2521-2",
+        "nombre": "Celular Motorola Moto G15 XT2521-2 NFC Dual Sim de 128GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G15 XT2521-2 NFC",
+        "color": "Naranja",
+        "especificaciones": {
+            "pantalla": "6.72 pulgadas",
+            "camara_trasera": "50 + 5 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 222560.0,
+            "mayorista": 203200.0
+        }
+    },
+    {
+        "id": "XT2341-2",
+        "nombre": "Celular Motorola Moto G14 XT2341-2 Dual Sim de 128GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G14 XT2341-2",
+        "color": "Ceniza",
+        "especificaciones": {
+            "pantalla": "6.5 pulgadas",
+            "camara_trasera": "50 + 2 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 224640.0,
+            "mayorista": 204800.0
+        }
+    },
+    {
+        "id": "XT2521-2-1",
+        "nombre": "Celular Motorola Moto G15 XT2521-2 NFC Dual Sim de 256GB/4GB Ram ",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G15 XT2521-2 NFC",
+        "color": "Gris",
+        "especificaciones": {
+            "pantalla": "6.72 pulgadas",
+            "camara_trasera": "50 + 5 MP",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "256 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 235040.0,
+            "mayorista": 212800.0
+        }
+    },
+    {
+        "id": "XT2435-1",
+        "nombre": "Celular Motorola Moto G55 5G XT2435-1 NFC Nano + Esim de 256GB/8GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G55 5G XT2435-1",
+        "color": "Negro",
+        "especificaciones": {
+            "pantalla": "6.49 pulgadas",
+            "camara_trasera": "50 MP + 8 MP",
+            "camara_frontal": "16 Megapíxeles",
+            "ram": "8 GB",
+            "almacenamiento": "256 GB",
+            "sim": "2 Chips (Nano + eSIM)",
+            "conectividad": "5G",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 345280.0,
+            "mayorista": 297600.0
+        }
+    },
+    {
+        "id": "XT2433-2",
+        "nombre": "Celular Motorola Moto G35 5G XT2433-2 NFC Nano + Esim de 256GB/4GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G35 5G XT2433-2",
+        "color": "Negro",
+        "especificaciones": {
+            "pantalla": "6.72 pulgadas",
+            "camara_trasera": "50 MP + 8 MP",
+            "camara_frontal": "16 Megapíxeles",
+            "ram": "8 GB",
+            "almacenamiento": "256 GB",
+            "sim": "2 Chips (Dual SIM)",
+            "conectividad": "5G",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 272480.0,
+            "mayorista": 241600.0
+        }
+    },
+    {
+        "id": "XT2427-1",
+        "nombre": "Celular Motorola Moto G85 5G XT2427-1 NFC Nano + Esim de 256GB/8GB Ram",
+        "marca": "Motorola",
+        "linea": "Moto G",
+        "modelo": "Moto G85 5G",
+        "color": "Verde Lima",
+        "especificaciones": {
+            "pantalla": "6.7 pulgadas",
+            "camara_trasera": "50+8 Megapíxeles",
+            "camara_frontal": "32 Megapíxeles",
+            "ram": "8 GB",
+            "almacenamiento": "256 GB",
+            "sim": "2 Chips (Dual SIM)",
+            "conectividad": "5G",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 401440.0,
+            "mayorista": 356800.0
+        }
+    },
+    {
+        "id": "REDMI-A5-128GB",
+        "nombre": "Celular Xiaomi Redmi A5 Dual Sim de 128GB/4GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Redmi",
+        "modelo": "Redmi A5",
+        "color": "Midnight Black",
+        "especificaciones": {
+            "pantalla": "6.88\" (aproximadamente)",
+            "camara_trasera": "32 MP",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 183040.0,
+            "mayorista": 172800.0
+        }
+    },
+    {
+        "id": "POCO-C71-64GB",
+        "nombre": "Celular Xiaomi Poco C71 Dual Sim de 64GB/3GB Ram",
+        "marca": "Xiaomi",
+        "linea": "POCO",
+        "modelo": "POCO C71",
+        "color": "Azul",
+        "especificaciones": {
+            "pantalla": "6.88\" (aproximadamente)",
+            "camara_trasera": "32 MP",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "3 GB",
+            "almacenamiento": "64 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 170560.0,
+            "mayorista": 163200.0
+        }
+    },
+    {
+        "id": "REDMI-A5-64GB",
+        "nombre": "Celular Xiaomi Redmi A5 Dual Sim de 64GB/3GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Redmi",
+        "modelo": "Redmi A5",
+        "color": null,
+        "especificaciones": {
+            "pantalla": "6.88\" (aproximadamente)",
+            "camara_trasera": "32 MP",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "3 GB",
+            "almacenamiento": "64 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 168480.0,
+            "mayorista": 161600.0
+        }
+    },
+    {
+        "id": "POCO-C85-NFC",
+        "nombre": "Celular Xiaomi Poco C85 NFC Dual Sim de 128GB/6GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Poco",
+        "modelo": "Poco C85",
+        "color": "Negro",
+        "especificaciones": {
+            "pantalla": "6.9\" (aprox.)",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "13 Megapíxeles",
+            "ram": "6 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 232960.0,
+            "mayorista": 211200.0
+        }
+    },
+    {
+        "id": "REDMI-15C",
+        "nombre": "Celular Xiaomi Redmi 15C Dual Sim de 128GB/4GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Redmi",
+        "modelo": "Redmi 15C",
+        "color": "Midnight Black",
+        "especificaciones": {
+            "pantalla": "6.9\" (aprox.)",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 228800.0,
+            "mayorista": 208000.0
+        }
+    },
+    {
+        "id": "POCO-C71-128GB",
+        "nombre": "Celular Xiaomi Poco C71 Dual Sim de 128GB/4GB Ram",
+        "marca": "Xiaomi",
+        "linea": "POCO",
+        "modelo": "POCO C71",
+        "color": "Preto",
+        "especificaciones": {
+            "pantalla": "6.88\" (aproximadamente)",
+            "camara_trasera": "32 MP",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 193440.0,
+            "mayorista": 180800.0
+        }
+    },
+    {
+        "id": "REDMI-13X",
+        "nombre": "Celular Xiaomi Redmi 13X Dual Sim de 256GB/8GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Redmi",
+        "modelo": "Redmi 13X",
+        "color": "Midnight Black",
+        "especificaciones": {
+            "pantalla": "6.79\" (aprox.)",
+            "camara_trasera": "108+2 Megapíxeles",
+            "camara_frontal": "13 Megapíxeles",
+            "ram": "8 GB",
+            "almacenamiento": "256 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 268320.0,
+            "mayorista": 238400.0
+        }
+    },
+    {
+        "id": "POCO-M7-NFC",
+        "nombre": "Celular Xiaomi Poco M7 NFC Dual Sim de 128GB/6GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Poco",
+        "modelo": "Poco M7",
+        "color": "Azul",
+        "especificaciones": {
+            "pantalla": "6.9\" (aprox.)",
+            "camara_trasera": "50+8 Megapíxeles",
+            "camara_frontal": "8 – 12 Megapíxeles",
+            "ram": "6 GB",
+            "almacenamiento": "128 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 255840.0,
+            "mayorista": 228800.0
+        }
+    },
+    {
+        "id": "POCO-C85-NFC-256GB",
+        "nombre": "Celular Xiaomi Poco C85 NFC Dual Sim de 256GB/8GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Poco",
+        "modelo": "Poco C85",
+        "color": "Verde",
+        "especificaciones": {
+            "pantalla": "6.9\" (aprox.)",
+            "camara_trasera": "50+13 Megapíxeles",
+            "camara_frontal": "8 – 12 Megapíxeles",
+            "ram": "8 GB",
+            "almacenamiento": "256 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": "NFC",
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 268320.0,
+            "mayorista": 238400.0
+        }
+    },
+    {
+        "id": "REDMI-15C-256GB",
+        "nombre": "Celular Xiaomi Redmi 15C Dual Sim de 256GB/4GB Ram",
+        "marca": "Xiaomi",
+        "linea": "Redmi",
+        "modelo": "Redmi 15C",
+        "color": "Mint Green (Verde Menta)",
+        "especificaciones": {
+            "pantalla": "6.9\" (aprox.)",
+            "camara_trasera": "50 Megapíxeles",
+            "camara_frontal": "8 Megapíxeles",
+            "ram": "4 GB",
+            "almacenamiento": "256 GB",
+            "sim": "Dual SIM (2 Chips)",
+            "conectividad": "4G LTE",
+            "tecnologia_adicional": null,
+            "sistema_operativo": "Android"
+        },
+        "precios": {
+            "individual": 247520.0,
+            "mayorista": 222400.0
+        }
+    }
+]

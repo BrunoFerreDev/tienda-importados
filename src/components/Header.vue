@@ -1,29 +1,25 @@
 <script setup>
-import { IconSearch } from '@tabler/icons-vue';
 import { RouterLink } from 'vue-router';
+import BuscarProducto from './filtros/BuscarProducto.vue';
 </script>
 
 <template>
     <header
-        class="flex items-center justify-between border-b border-gray-200 px-4 sm:px-6 lg:px-10 sticky top-0 z-50 bg-white">
+        class="flex items-center justify-between border-b border-gray-200 px-4 lg:px-10 sticky top-0 z-50 bg-white">
         <!-- Sección izquierda: logo + enlaces -->
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 flex-wrap ">
             <img src="/logo.jpeg" alt="Logo TechStore" class="w-44 h-24 object-contain" />
             <nav class="flex items-center gap-3 text-gray-600 text-lg font-medium">
                 <RouterLink to="/" class="hover:text-primary">Inicio</RouterLink>
                 <RouterLink to="/informacion" class="hover:text-primary">Información</RouterLink>
             </nav>
+            <div class="md:hidden mb-2 flex justify-center w-full">
+                <BuscarProducto />
+            </div>
         </div>
-
-        <!-- Botón menú móvil -->
-        <button id="menu-toggle" class="flex items-center justify-center h-10 w-10 text-primary md:hidden">
-            <span class="material-symbols-outlined text-3xl">menu</span>
-        </button>
-
         <!-- Sección derecha (visible en pantallas grandes) -->
         <div class="hidden md:flex items-center gap-4">
-            <!-- Buscador -->
-            <div class="flex max-w-sm">
+            <!-- <div class="flex max-w-sm">
                 <label class="flex flex-col w-full h-[45px]">
                     <div class="flex w-full items-stretch rounded-lg">
                         <div class="text-gray-500 flex bg-gray-100 items-center justify-center pl-3 rounded-l-lg">
@@ -34,10 +30,10 @@ import { RouterLink } from 'vue-router';
                             placeholder="Buscar productos..." />
                     </div>
                 </label>
-            </div>
-
+            </div> -->
+            <BuscarProducto />
             <!-- Íconos -->
-            <div class="flex items-center gap-2">
+            <div class="hidden lg:flex items-center gap-2">
                 <button
                     class="flex items-center justify-center rounded-lg h-10 w-10 bg-gray-100 text-gray-600 hover:bg-primary/10 hover:text-primary transition">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

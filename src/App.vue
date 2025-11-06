@@ -1,8 +1,8 @@
 <template>
     <div class="bg-background-light font-display text-gray-800">
         <Header />
-        <Carousel v-if="route.name !== 'Detalle' && route.name !== 'Informacion'"/>
-        <main class="mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <Carousel v-if="route.name === 'Home'"/>
+        <main class="mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1" >
             <router-view />
         </main>
         <Footer />

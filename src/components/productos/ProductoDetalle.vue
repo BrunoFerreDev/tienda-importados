@@ -1,19 +1,18 @@
 <template>
-    <div class="container mx-auto max-w-5xl p-4 my-8">
+    <div class="container mx-auto max-w-7xl p-4 my-8">
 
         <!-- Botón para Volver (útil para la navegación) -->
-        <a href="#" @click.prevent="goBack"
-            class="inline-flex items-center text-primary hover:text-primary-dark mb-4 group">
+        <RouterLink to="/" class="inline-flex items-center text-primary hover:text-primary-dark mb-4 group">
             <svg class="w-5 h-5 mr-1 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor"
                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
                 </path>
             </svg>
             Volver a productos
-        </a>
+        </RouterLink>
 
         <!-- Contenedor Principal del Producto -->
-        <div v-if="producto" class="bg-white shadow-xl rounded-xl overflow-hidden">
+        <div v-if="producto" class="bg-gray-100 shadow-xl rounded-xl overflow-hidden">
             <div class="flex flex-col md:flex-row">
 
                 <!-- Columna de la Imagen -->
@@ -34,7 +33,11 @@
                     <h1 class="text-3xl font-bold text-gray-900 my-2">{{ producto.nombre }}</h1>
 
                     <!-- Precio -->
-                    <span class="text-4xl font-light text-primary my-4">{{ formattedPrice }}</span>
+                    <div class="flex flex-col my-4 gap-2">
+                        <span class="text-4xl font-light text-primary ">{{ formatearPrecio(producto.precios.individual) }}</span>
+                        <span class="text-md font-light text-gray-500">A partir de 3 unidades:{{
+                            formatearPrecio(producto.precios.mayorista) }}</span>
+                    </div>
 
                     <!-- Descripción -->
                     <p class="text-gray-700 leading-relaxed mb-6">{{ producto.descripcion }}</p>
@@ -43,10 +46,10 @@
                     <div class="mb-6">
                         <h3 class="text-lg font-semibold mb-3">Especificaciones</h3>
                         <div class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-600">
-                            <span><strong>RAM:</strong> {{ producto.ram }}</span>
-                            <span><strong>Almacenamiento:</strong> {{ producto.almacenamiento }}</span>
-                            <span><strong>Chip:</strong> {{ producto.chip }}</span>
-                            <span><strong>Conectividad:</strong> {{ producto.conectividad }}</span>
+                            <span><strong>RAM:</strong> {{ producto.especificaciones.ram }}</span>
+                            <span><strong>Almacenamiento:</strong> {{ producto.especificaciones.almacenamiento }}</span>
+                            <span><strong>Chip:</strong> {{ producto.especificaciones.sim }}</span>
+                            <span><strong>Conectividad:</strong> {{ producto.especificaciones.conectividad }}</span>
                         </div>
                     </div>
 
@@ -54,10 +57,10 @@
                     <div class="flex flex-col sm:flex-row gap-4">
 
 
-                        <!-- Botón Agregar al Carrito -->
-                        <button @click="handleAddToCart"
-                            class="flex-1 bg-primary text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-primary-dark transition-colors duration-200">
-                            Info via WhatsApp
+                        <button @click.prevent="sendWhatsAppMessage"
+                            class="z-10 relative flex w-full items-center justify-center gap-2 rounded-lg bg-[#25D366] px-4 py-2.5 text-sm font-medium text-black shadow-sm hover:bg-[#128C7E] transition-colors">
+                            <IconBrandWhatsapp />
+                            <span>Chat en WhatsApp</span>
                         </button>
                     </div>
 
@@ -75,7 +78,8 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { IconBrandWhatsapp } from '@tabler/icons-vue'
+
 
 // --- Props ---
 // El componente espera un objeto 'producto'.
@@ -89,15 +93,13 @@ const props = defineProps({
     }
 })
 
-// --- Estado Interno ---
-
-// --- Propiedades Computadas ---
-
 /**
  * Formatea el precio a moneda local (ARS - Peso Argentino).
  */
-const formattedPrice = computed(() => {
-    if (!props.producto || typeof props.producto.precio !== 'number') {
+
+
+const formatearPrecio = (precio) => {
+    if (!precio || typeof precio !== 'number') {
         return '$ 0,00'
     }
     return new Intl.NumberFormat('es-AR', {
@@ -105,22 +107,14 @@ const formattedPrice = computed(() => {
         currency: 'ARS',
         minimumFractionDigits: 0, // Opcional: si no quieres centavos
         maximumFractionDigits: 0  // Opcional: si no quieres centavos
-    }).format(props.producto.precio)
-})
+    }).format(precio)
+}
 
 /**
  * Construye la ruta a la imagen.
  * Asume que las imágenes están en 'public/images/'.
  */
-const imagePath = computed(() => {
-    if (props.producto) {
-        // Asumimos que las imágenes están en /images/
-        // Ej: /images/MOT-001.webp
-        return `/images/${props.producto.imagen}`
-    }
-    // Devuelve una imagen placeholder si no hay producto
-    return 'https://placehold.co/600x600/e2e8f0/adb5bd?text=Cargando'
-})
+
 
 function getImageUrl(producto) {
     try {
@@ -134,19 +128,20 @@ function getImageUrl(producto) {
     }
 }
 
-
-/**
- * Maneja el error si la imagen no se encuentra y pone un placeholder.
- */
 function onImageError(event) {
     event.target.src = `https://placehold.co/600x600/e2e8f0/adb5bd?text=Imagen+no+disponible`
 }
+const companyNumber = import.meta.env.VITE_WHATSAPP_NUMBER
+const sendWhatsAppMessage = () => {
+    if (!companyNumber) {
+        console.error('⚠️ No se configuró el número de WhatsApp en .env')
+        alert('Error: No se configuró el número de WhatsApp de la empresa.')
+        return
+    }
 
-/**
- * Navega a la página anterior.
- */
-function goBack() {
-    window.history.back()
+    const message = `Hola! Me interesa el producto ${props.producto.nombre}, cuyo precio es $${props.producto.precio.toLocaleString()}. Podrían darme más información?`
+    const url = `https://wa.me/${companyNumber}?text=${encodeURIComponent(message)}`
+    window.open(url, '_blank')
 }
 </script>
 

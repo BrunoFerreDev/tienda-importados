@@ -1,24 +1,23 @@
 <template>
   <div
     class="w-full lg:w-64 lg:sticky lg:top-4 z-10 bg-white rounded-xl p-4 shadow-md border border-gray-100 text-sm mb-4 lg:mb-0">
-    
+
     <h3 class="text-lg font-semibold mb-4 border-b pb-2">Filtros</h3>
 
     <div class="space-y-4">
-      
+
       <div>
         <label for="sort-select" class="block text-sm font-medium mb-1">Ordenar:</label>
-        <select
-          id="sort-select"
+        <select id="sort-select"
           class="w-full appearance-none rounded-lg border border-gray-300 bg-white py-2.5 pl-3 pr-10 text-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-          vV-model="filters.sort">
+          v-model="filters.sort">
           <option v-for="option in sort" :key="option.value" :value="option.value">
             {{ option.label }}
           </option>
         </select>
       </div>
 
-      <details class="flex flex-col group" open>
+      <!-- <details class="flex flex-col group" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-6 font-medium">
           Categorías
         </summary>
@@ -28,7 +27,7 @@
             <span>{{ cat.label }}</span>
           </label>
         </div>
-      </details>
+      </details> -->
 
       <details class="flex flex-col group" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-6 font-medium">
@@ -43,8 +42,7 @@
       </details>
 
       <div class="pt-4 border-t border-gray-200">
-        <button 
-          @click="resetFilters"
+        <button @click="resetFilters"
           class="w-full rounded-lg border border-gray-300 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-1 focus:ring-primary">
           Limpiar Filtros
         </button>
@@ -67,14 +65,6 @@ const props = defineProps({
       { label: 'Precio: Alto a Bajo', value: 'precio-desc' },
     ]
   },
-  categorias: {
-    type: Array,
-    default: () => [
-      { label: 'Celulares', value: 'celulares' },
-      { label: 'Computadoras', value: 'computadoras' },
-      { label: 'Accesorios', value: 'accesorios' },
-    ]
-  },
   marcas: {
     type: Array,
     default: () => [
@@ -90,14 +80,12 @@ const emits = defineEmits(['update:filters'])
 // --- Estado reactivo (No hay cambios) ---
 const filters = reactive({
   sort: 'featured',
-  categoria: [],
   marca: [],
 })
 
 // --- Función de reseteo (No hay cambios) ---
 function resetFilters() {
   filters.sort = 'featured'
-  filters.categoria = []
   filters.marca = []
 }
 
