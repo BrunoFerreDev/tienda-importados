@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full lg:w-64 lg:sticky lg:top-4 z-10 bg-white rounded-xl p-4 shadow-md border border-gray-100 text-sm mb-4 lg:mb-0">
+    class="w-full lg:w-64 lg:sticky lg:top-26 z-50 bg-white rounded-xl p-4 shadow-md border border-gray-100 text-sm mb-4 lg:mb-0">
 
     <h3 class="text-lg font-semibold mb-4 border-b pb-2">Filtros</h3>
 

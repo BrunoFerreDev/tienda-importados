@@ -1,17 +1,33 @@
 <template>
-    <section class="mb-5 bg-[#aec8f5] py-12 ">
-        <div class=" container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center gap-8">
-            <div class="lg:w-1/2 text-center lg:text-left">
-                <h1 class="text-4xl lg:text-5xl font-bold text-primary mb-4 leading-tight"> ¡Bienvenido a TechStore!
-                </h1>
-                <p class="text-lg text-text-secondary mb-6"> Productos electrodomésticos y lo último en tecnología.
-                    ¡Renueva tu hogar hoy! </p>
-            </div>
-            <div class="lg:w-1/2 mt-8 lg:mt-0"><img
-                    alt="Promotional image showing a modern kitchen with new appliances and a person using a laptop"
-                    class="rounded-lg shadow-xl w-full h-[500px] object-cover"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4jr3JtmvlOp0vtPcbzoev1U9KBkLxTG-Fs_mdpK9wdNzGIDvqd6y5JgDNXxAGMXuckQ5u5TL-9MINQ_hxaQq0kE27plv__r3u-LCmfRQxyPf1Lfm6Fn0TawcKzzixe_NBBq_Ryib6MyGcBfCkqsOoDOcpxkTmCkSFaHJgL8Ta5lutct70g0uipEkpcyXyf3uvQ6BNKgsG4U3ZsleUa9KAWan84ABzuZZN4HaKrwJeUTg4OMGCiI31C-DFwwIw-GI0ZGDtiqOOhTI">
-            </div>
+    <section class="w-full relative overflow-hidden bg-background-dark py-16 md:py-24 lg:py-32 h-[600px]">
+        <div class="absolute inset-0 w-full bg-no-repeat bg-cover bg-center md:hidden"
+            style="background-image: url('/banner-movil.webp');">
+        </div>
+
+        <div class="absolute inset-0 w-full bg-no-repeat bg-cover bg-center hidden md:block"
+            style="background-image: url('/banner.webp');">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/10"></div>
+        <div class="relative z-10 container mx-auto px-4 lg:px-8 text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 mt-12 tracking-tight">¡Celulares importados, calidad
+                garantizada!
+            </h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-200">Recibí tu smartphone nuevo sin pagar de más.
+            </p>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-200 underline mt-3">Envíos a toda Argentina</p>
+            <a class="flex flex-col items-center bg-primary text-white font-bold py-3 px-8 rounded-lg hover:bg-primary/90 transition-colors mt-8 text-lg"
+                href="#" @click.prevent="scrollToCatalog">Explorar Catálogo
+                <IconArrowDown class="ml-2" />
+            </a>
         </div>
     </section>
 </template>
+<script setup>
+import { IconArrowDown } from "@tabler/icons-vue";
+const scrollToCatalog = () => {
+    const catalogSection = document.getElementById("catalog");
+    if (catalogSection) {
+        catalogSection.scrollIntoView({ behavior: "smooth" });
+    }
+};
+</script>

@@ -34,9 +34,14 @@
 
                     <!-- Precio -->
                     <div class="flex flex-col my-4 gap-2">
-                        <span class="text-4xl font-light text-primary ">{{ formatearPrecio(producto.precios.individual) }}</span>
+                        <span
+                            class="text-4xl font-light text-primary ">{{ producto.precios.individual.toLocaleString('es-AR',
+                                { style: 'currency', currency: 'ARS' })
+                            }}</span>
                         <span class="text-md font-light text-gray-500">A partir de 3 unidades:{{
-                            formatearPrecio(producto.precios.mayorista) }}</span>
+                            producto.precios.mayorista.toLocaleString('es-AR',
+                                { style: 'currency', currency: 'ARS' })
+                            }}</span>
                     </div>
 
                     <!-- Descripción -->
@@ -139,7 +144,7 @@ const sendWhatsAppMessage = () => {
         return
     }
 
-    const message = `Hola! Me interesa el producto ${props.producto.nombre}, cuyo precio es $${props.producto.precio.toLocaleString()}. Podrían darme más información?`
+    const message = `Hola! Me interesa el producto ${props.producto.nombre}, cuyo precio es $${props.producto.precios.individual.toLocaleString("es-AR", { style: 'currency', currency: 'ARS' })}. Podrían darme más información?`
     const url = `https://wa.me/${companyNumber}?text=${encodeURIComponent(message)}`
     window.open(url, '_blank')
 }

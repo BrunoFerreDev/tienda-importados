@@ -69,7 +69,6 @@ onMounted(async () => {
     const response = await fetch('/data/data.json')
     if (!response.ok) throw new Error('No se pudo cargar productos.json')
     allProducts.value = await response.json()
-    console.log(allProducts.value)
   } catch (error) {
     console.error("Error cargando productos para búsqueda:", error)
   }

@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto p-4">
         <Loader v-if="loading" />
-        <div v-else class="flex flex-col lg:flex-row gap-8" style="scroll-margin-top: 180px;"
+        <div v-else class="flex flex-col lg:flex-row gap-8" style="scroll-margin-top: 180px;" id="catalog"
             ref="productListContainerRef">
             <aside class="lg:w-1/4">
                 <FiltrosContainer @update:filters="updateFilters" :marcas="marcasDisponibles" />
@@ -35,7 +35,7 @@ const productListContainerRef = ref(null)
 // --- 1. ESTADO PRINCIPAL ---
 const products = ref([])      // Lista completa de todos los productos
 const currentPage = ref(1)
-const itemsPerPage = 6     // Define cuántos productos por página
+const itemsPerPage = 10     // Define cuántos productos por página
 const loading = ref(true)
 // --- 2. ESTADO DE FILTROS ---
 // ¡IMPORTANTE! Debe inicializarse con la misma estructura
